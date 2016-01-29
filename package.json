@@ -1,0 +1,30 @@
+{
+  "name": "assert_agent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "",
+    "i": "npm install gulp browser-sync bower --save-dev",
+    "live": "browser-sync start --port 9999 --server --files \"**/*.css, **/*.html, **/*.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/black-black-cat/webpage-find_estate_agent.git"
+  },
+  "keywords": [
+    "front-end",
+    "pages"
+  ],
+  "author": "black-black-cat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/black-black-cat/webpage-find_estate_agent/issues"
+  },
+  "homepage": "https://github.com/black-black-cat/webpage-find_estate_agent#readme",
+  "devDependencies": {
+    "bower": "^1.7.7",
+    "browser-sync": "^2.11.1",
+    "gulp": "^3.9.0"
+  }
+}
